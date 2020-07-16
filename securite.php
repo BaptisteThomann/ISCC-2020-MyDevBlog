@@ -17,10 +17,4 @@ if (isset($_POST['login']) && isset($_POST['pwd'])) {
 	echo 'Nom d\'utilisateur ou mot de passe incorrect.<br>Cliquez <a href="connexion.php">ici</a> pour réessayer.';
 }
 
-    /*
-    $cleid = array_keys($_SESSION);
-
-    if(array_key_exists('id',$_SESSION)==true){
-        setcookie ($cleid[0],$_SESSION['id']);
-    }*/
 ?>
