@@ -19,11 +19,7 @@ body p{
 }
 
 
-.txtloading {
-    color: rgb(218, 197, 82);
-    font-family: 'Pattaya', sans-serif;
-    font-size: 24px;
-}
+
 
 .txt {
     color: rgb(218, 197, 82);
@@ -44,14 +40,7 @@ body section {
     position: relative;
 }
 
-.imgp {
-    background-image: url(hp.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
+
 
 .bar {
     float: left;
@@ -78,21 +67,8 @@ body section {
     font-size: 44px;
 }
 
-.load-10 .bar {
-    animation: loadingJ 2s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
-}
 
-@keyframes loadingJ {
-    0%, 100% {
-        transform: translate(0, 0);
-    }
 
-    50% {
-        transform: translate(80px, 0);
-        background-color: #f5634a;
-        width: 25px;
-    }
-}
 
 .contenu{ 
     width: 810px;
@@ -136,8 +112,4 @@ input{
 
 input:hover{
     border:2px solid #e7c735
-}
-
-.messagepart{
-    height: 60px;
 }
