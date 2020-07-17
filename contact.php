@@ -23,9 +23,9 @@
 
         <form>
             <div>
-                <input type="text" placeholder="Votre nom">
+                <input type="text" placeholder="Nom">
                 <br>
-                <input type="email" placeholder="Votre email">
+                <input type="email" placeholder="Email">
                 <input class="messagepart" placeholder="Comment améliorer mon site ?">
                 <div class="bouton">
                 <button type="submit">Envoyer</button>
